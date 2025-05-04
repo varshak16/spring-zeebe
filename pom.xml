@@ -19,7 +19,7 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
 
-    <zeebe.version>8.5.7</zeebe.version>
+    <zeebe.version>8.7.1</zeebe.version>
     <identity.version>8.7.0</identity.version>
 
     <spring-boot.version>3.4.4</spring-boot.version>
@@ -381,9 +381,9 @@
           <version>${plugin.version.maven-enforcer-plugin}</version>
           <configuration>
             <rules>
-              <reactorModuleConvergence />
-              <dependencyConvergence />
-              <requirePluginVersions />
+              <reactorModuleConvergence/>
+              <dependencyConvergence/>
+              <requirePluginVersions/>
               <requireReleaseDeps>
                 <onlyWhenRelease>true</onlyWhenRelease>
               </requireReleaseDeps>
@@ -469,8 +469,8 @@
                 <include>*.md</include>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <spaces>true</spaces>
                 <spacesPerTab>2</spacesPerTab>
@@ -478,9 +478,9 @@
             </format>
           </formats>
           <java>
-            <googleJavaFormat />
+            <googleJavaFormat/>
           </java>
-          <pom />
+          <pom/>
         </configuration>
       </plugin>
       <plugin>
