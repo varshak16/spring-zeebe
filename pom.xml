@@ -26,7 +26,7 @@
     <commons-beanutils.version>1.10.1</commons-beanutils.version>
     <resilience4j.version>2.3.0</resilience4j.version>
     <jackson.version>2.18.3</jackson.version>
-    <commons-lang.version>3.17.0</commons-lang.version>
+    <commons-lang.version>3.18.0</commons-lang.version>
 
     <plugin.version.maven-enforcer-plugin>3.5.0</plugin.version.maven-enforcer-plugin>
 
@@ -381,9 +381,9 @@
           <version>${plugin.version.maven-enforcer-plugin}</version>
           <configuration>
             <rules>
-              <reactorModuleConvergence />
-              <dependencyConvergence />
-              <requirePluginVersions />
+              <reactorModuleConvergence/>
+              <dependencyConvergence/>
+              <requirePluginVersions/>
               <requireReleaseDeps>
                 <onlyWhenRelease>true</onlyWhenRelease>
               </requireReleaseDeps>
@@ -469,8 +469,8 @@
                 <include>*.md</include>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <spaces>true</spaces>
                 <spacesPerTab>2</spacesPerTab>
@@ -478,9 +478,9 @@
             </format>
           </formats>
           <java>
-            <googleJavaFormat />
+            <googleJavaFormat/>
           </java>
-          <pom />
+          <pom/>
         </configuration>
       </plugin>
       <plugin>
